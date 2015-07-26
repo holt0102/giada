@@ -6,6 +6,7 @@
 *.orig
 *.rej
 *.swp
+*.dirstamp
 
 # --- rtaudio stuff
 src/rtaudio-mod/librtaudio.pc
@@ -32,17 +33,15 @@ missing
 release/
 script/
 patch/
-src/giada
-src/giada_lin
-src/giada_osx
-src/giada_win.exe
-src/*.o
 src/giada.conf
-src/.deps
-src/Makefile.in
+.deps
 midimaps/Makefile.in
 /Makefile.in
-compile
+/giada
+/giada_lin
+/giada_win
+/giada_osx
+/compile
 debian/*.log
 debian/autoreconf.after
 debian/autoreconf.before
